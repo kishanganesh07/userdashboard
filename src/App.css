@@ -1,0 +1,10 @@
+.input {
+   width: 100%;
+   border: 1px solid #827676;
+   padding: 5px 10px;
+   border-radius: 7px;
+}
+
+button{
+    cursor: pointer;
+}

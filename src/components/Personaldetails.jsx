@@ -16,8 +16,8 @@ const Personaldetails = ({ personal = {} }) => {
   const { name, username, email, phone } = personal
 
   return (
-    <section className="bg-white rounded-xl shadow-md p-9 mb-6 max-w-md ml-5 h-[full] w-[650px] ">
-      <h2 className="text-xl font-bold text-gray-900 mb-4"><span className='text-2xl pb-1'>🪪</span> Personal Information</h2>
+    <section className="bg-white rounded-xl shadow-md p-6 sm:p-9 mb-6 max-w-full sm:max-w-md lg:max-w-lg ml-0 sm:ml-5 w-112.5 ">
+      <h1 className="text-lg sm:text-xl font-bold text-gray-900 mb-4"><span className='text-2xl pb-1'>🪪</span> Personal Information</h1>
 
       <div className="grid grid-cols-1 gap-4">
         <div>
@@ -28,18 +28,18 @@ const Personaldetails = ({ personal = {} }) => {
         {username && (
           <div>
             <div className="text-sm text-gray-500">Username</div>
-            <div className="font-semibold text-gray-800">@{username}</div>
+            <div className="font-semibold text-gray-800">{username}</div>
           </div>
         )}
 
         <div>
           <div className="text-sm text-gray-500">📧 Email</div>
-          <div className="font-semibold text-gray-800">{email || '-'}</div>
+          <div className="font-semibold text-gray-800">{email}</div>
         </div>
 
         <div>
           <div className="text-sm text-gray-500">📞 Phone</div>
-          <div className="font-semibold text-gray-800">{phone || '-'}</div>
+          <div className="font-semibold text-gray-800">{phone }</div>
         </div>
       </div>
     </section>

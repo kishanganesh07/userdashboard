@@ -34,7 +34,6 @@ const AppContext = (props) => {
         setUsers([...apiuser,...localuser])
        }
        loadUsers()
-       console.log(users)
     }, [])
 
     const addUser = (newUser) => {

@@ -4,8 +4,8 @@ const Companydetails = (props) => {
   const { name, catchPhrase, bs } = props.deatils
 console.log(name);
   return (
-    <section className="bg-white rounded-xl shadow-md p-9 mb-6 max-w-md ml-5 h-[full] w-[650px] ">
-      <h2 className="text-xl font-bold text-gray-900 mb-4"><span className='text-2xl pb-1'>🏢</span> Company </h2>
+    <section className="bg-white rounded-xl shadow-md p-6 sm:p-9 mb-6 w-full max-w-full sm:max-w-md lg:max-w-lg ml-0 sm:ml-5 ">
+      <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-4"><span className='text-2xl pb-1'>🏢</span> Company </h2>
 
       <div className="grid grid-cols-1 gap-4">
         <div>

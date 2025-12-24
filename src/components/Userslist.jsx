@@ -14,7 +14,7 @@ const Userslist = () => {
       ></div>
 
       
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
       <div className="relative z-10 min-h-screen flex flex-col">
           <Navbar/>
         <header className='px-4 sm:px-6 lg:px-10'>

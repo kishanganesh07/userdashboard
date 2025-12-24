@@ -40,7 +40,7 @@ const Userdetailspage = () => {
   }
 
   return (
-    <div className="bg-gray-200 w-full min-h-screen flex flex-col">
+    <div className="bg-gray-100 w-full min-h-screen flex flex-col">
       <Navbar />
       <div className="pb-5 px-4 sm:px-6 lg:px-10">
         <Link to="/users">
@@ -49,12 +49,13 @@ const Userdetailspage = () => {
           </button>
         </Link>
       </div>
-      <div className="flex flex-col lg:flex-row gap-10 mt-5 px-4 sm:px-6 lg:px-12">
+      <div className="flex flex-col lg:flex-row justify-center gap-10 mt-5 px-4 sm:px-6 lg:px-12 grow w-full">
         <Personaldetails personal={personal} />
-        <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col md:flex-row gap-10 w-full lg:w-auto">
           <Companydetails deatils={company} />
           <Addressdetails deatils={address} />
-        </div>
+          </div>
+        
       </div>
       <Footer />
     </div>

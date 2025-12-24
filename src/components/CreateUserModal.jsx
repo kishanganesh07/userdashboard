@@ -76,13 +76,11 @@ const CreateUserModal = () => {
 
    setLoading(true)
 
-    setTimeout(() => {
       addUser(newUser)
       toast.success("User created successfully 🎉")
       setLoading(false)
       setOpenModal(false)
       e.target.reset()
-    }, 1200)
   
   }
 
@@ -216,7 +214,6 @@ const CreateUserModal = () => {
 
         </form>
       </div>
-       <ToastContainer position="top-right" autoClose={2000} />
     </div>
   )
 }

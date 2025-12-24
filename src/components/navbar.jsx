@@ -8,7 +8,7 @@ const Navbar = () => {
   const { users, setOpenModal } = useContext(Context)
 
   return (
-    <nav className="bg-white shadow w-full">
+    <nav className="bg-gray-200 shadow w-full">
       <div className=" px-4 sm:px-6 lg:pl-40 lg:pr-50 py-3 flex justify-between items-center">
         <Link to="/">
         <h1 className="text-lg sm:text-xl font-bold text-gray-800">

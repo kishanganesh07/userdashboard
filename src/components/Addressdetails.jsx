@@ -4,7 +4,7 @@ const Addressdetails = (props) => {
     const { street, suite, city, zipcode, lat, lng } = props.deatils
   return (
     <div>
-       <section className="bg-white rounded-xl shadow-md p-6 sm:p-9 mb-6 max-w-full sm:max-w-md lg:max-w-lg md:ml-5 sm:ml-5 w-2xl">
+       <section className="bg-white rounded-xl shadow-md p-6 sm:p-9 mb-6 max-w-full sm:max-w-md lg:max-w-lg md:ml-5 sm:ml-5 w-2xl grow">
       <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-4"><span className='text-2xl pb-1'>🏡</span> Address</h2>
 
       <div className="grid grid-cols-1 gap-4">

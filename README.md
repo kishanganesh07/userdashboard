@@ -6,7 +6,7 @@ A modern, responsive React-based web application for managing and viewing user i
 
 ##  Features
 
-- **User Dashboard**: View all users in a paginated, card-based layout
+- **User Dashboard**: View all users in a  paginated, card-based layout
 - **User Search**: Filter users by name in real-time
 - **User Details Page**: View comprehensive information about individual users
 - **Create Users**: Add new users with validation and local storage persistence
